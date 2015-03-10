@@ -36,9 +36,5 @@ cacheSolve <- function(x, ...) {
     return(x$getInverse())
   }
 }
-sample_array = array(c(1,2,3,4),dim = c(2,2))
 
-cache_matrix<-makeCacheMatrix(sample_array)
-cache_matrix$findInverse()
-print(cacheSolve(cache_matrix))
 
